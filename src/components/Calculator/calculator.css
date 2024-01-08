@@ -166,13 +166,13 @@ body {
   }
 
   & .keypad {
-    background: #efeeef;
+    background: #3be2c6;
     background-image:
       linear-gradient(
         to right,
         #9e9492 0 1%,
         transparent 2.5% 91%,
-        #fff 96% 98.5%,
+        #3be2c6 96% 98.5%,
         #aaa 99.5% 100%
       );
     padding: 10px 40px 10px 20px;
