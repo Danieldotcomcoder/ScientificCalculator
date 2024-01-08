@@ -1,4 +1,4 @@
-import './calculator.css'
+import './calculator.css';
 
 const Calculator = () => {
   return (
@@ -160,123 +160,119 @@ const Calculator = () => {
               <span className="primary">M in</span>
             </div>
             <button></button>
-         
-          
-        <div>
-          <span>σ</span>
-          <span className="italic">n</span>
-        </div>
-        </div>
-      
-     <div>
-        <div className="button-top">
-          <span className="primary">MR</span>
-        </div>
-        <button></button>
-        </div>
-          <span>σ</span>
-          <span className="italic">n</span>
-          <span>-1</span>
-        </div>
-      
-       
+            <div>
+              <span>σ</span>
+              <span className="italic">n</span>
+            </div>
+          </div>
 
-       
-
-      <div className="normal-keypad keypad">
-        <div>
-          <button className="dark">7</button>
-        </div>
-        <div>
-          <button className="dark">8</button>
-        </div>
-        <div>
-          <button className="dark">9</button>
-        </div>
-        <div>
-          <button className="clear">C</button>
-        </div>
-        <div>
-          <button className="clear">AC</button>
-          <span className="color abs">SAC</span>
-        </div>
-        <div>
-          <button className="dark">4</button>
-        </div>
-        <div>
-          <button className="dark">5</button>
-        </div>
-        <div>
-          <button className="dark">6</button>
-        </div>
-        <div>
-          <button className="light big">×</button>
-        </div>
-        <div>
-          <button className="light big fix">÷</button>
-        </div>
-        <div>
-          <button className="dark">1</button>
-        </div>
-        <div>
-          <button className="dark">2</button>
-        </div>
-        <div>
-          <button className="dark">3</button>
-        </div>
-        <div>
-          <button className="light big">+</button>
-        </div>
-        <div>
-          <button className="light big">—</button>
-        </div>
-        <div>
-          <button className="dark">0</button>
-        </div>
-        <div>
-          <button className="dark">·</button>
-        </div>
-        <div>
-          <button className="light">EXP</button>
-          <span>π</span>
-        </div>
-        <div>
-          <button className="light big">=</button>
-        </div>
-        <div>
-          <button className="light">M+</button>
           <div>
-            <span className="color">x</span>
-            <span className="highlight">DEL</span>
+            <div className="button-top">
+              <span className="primary">MR</span>
+            </div>
+            <button></button>
+
+            <div>
+              <span>σ</span>
+              <span className="italic">n</span>
+              <span>-1</span>
+            </div>
           </div>
         </div>
+
+        <div className="normal-keypad keypad">
+          <div>
+            <button className="dark">7</button>
+          </div>
+          <div>
+            <button className="dark">8</button>
+          </div>
+          <div>
+            <button className="dark">9</button>
+          </div>
+          <div>
+            <button className="clear">C</button>
+          </div>
+          <div>
+            <button className="clear">AC</button>
+            <span className="color abs">SAC</span>
+          </div>
+          <div>
+            <button className="dark">4</button>
+          </div>
+          <div>
+            <button className="dark">5</button>
+          </div>
+          <div>
+            <button className="dark">6</button>
+          </div>
+          <div>
+            <button className="light big">×</button>
+          </div>
+          <div>
+            <button className="light big fix">÷</button>
+          </div>
+          <div>
+            <button className="dark">1</button>
+          </div>
+          <div>
+            <button className="dark">2</button>
+          </div>
+          <div>
+            <button className="dark">3</button>
+          </div>
+          <div>
+            <button className="light big">+</button>
+          </div>
+          <div>
+            <button className="light big">—</button>
+          </div>
+          <div>
+            <button className="dark">0</button>
+          </div>
+          <div>
+            <button className="dark">·</button>
+          </div>
+          <div>
+            <button className="light">EXP</button>
+            <span>π</span>
+          </div>
+          <div>
+            <button className="light big">=</button>
+          </div>
+          <div>
+            <button className="light">M+</button>
+            <div>
+              <span className="color">x</span>
+              <span className="highlight">DEL</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="mode-selector">
+          <input id="deg" type="radio" name="mode" value="deg" />
+          <label htmlFor="deg"></label>
+
+          <input id="rad" type="radio" name="mode" value="rad" />
+          <label htmlFor="rad"></label>
+
+          <input id="gra" type="radio" name="mode" value="gra" checked />
+          <label htmlFor="gra"></label>
+
+          <input id="sd" type="radio" name="mode" value="sd" checked />
+          <label htmlFor="sd"></label>
+        </div>
+
+        <div className="mode-text">
+          <div className="option">DEG—</div>
+          <div className="option">RAD—</div>
+          <div className="option">GRA—</div>
+          <div className="option color">S D —</div>
+        </div>
+
+        <div className="casio-bottom"></div>
       </div>
-
-      <div className="mode-selector">
-        <input id="deg" type="radio" name="mode" value="deg" />
-        <label htmlFor="deg"></label>
-
-        <input id="rad" type="radio" name="mode" value="rad" />
-        <label htmlFor="rad"></label>
-
-        <input id="gra" type="radio" name="mode" value="gra" checked />
-        <label htmlFor="gra"></label>
-
-        <input id="sd" type="radio" name="mode" value="sd" checked />
-        <label htmlFor="sd"></label>
-      </div>
-
-      <div className="mode-text">
-        <div className="option">DEG—</div>
-        <div className="option">RAD—</div>
-        <div className="option">GRA—</div>
-        <div className="option color">S D —</div>
-      </div>
-
-      <div className="casio-bottom"></div>
     </div>
-    </div>
-    
   );
 };
 
