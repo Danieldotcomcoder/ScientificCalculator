@@ -1,6 +1,9 @@
+import Calculator from './components/Calculator/Calculator';
 
 function App() {
-  return <>React</>;
+  return <>
+  <Calculator />
+  </>;
 }
 
 export default App;
