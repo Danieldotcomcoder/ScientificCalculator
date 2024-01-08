@@ -160,26 +160,28 @@ const Calculator = () => {
               <span className="primary">M in</span>
             </div>
             <button></button>
-          </div>
-        </div>
-
-        <button></button>
+         
+          
         <div>
           <span>σ</span>
           <span className="italic">n</span>
         </div>
-      </div>
-      <div>
+        </div>
+      
+     <div>
         <div className="button-top">
           <span className="primary">MR</span>
         </div>
         <button></button>
-        <div>
+        </div>
           <span>σ</span>
           <span className="italic">n</span>
           <span>-1</span>
         </div>
-      </div>
+      
+       
+
+       
 
       <div className="normal-keypad keypad">
         <div>
@@ -273,6 +275,8 @@ const Calculator = () => {
 
       <div className="casio-bottom"></div>
     </div>
+    </div>
+    
   );
 };
 
