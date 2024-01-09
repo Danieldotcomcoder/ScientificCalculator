@@ -18,6 +18,8 @@
 
 body {
   background: steelblue;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
