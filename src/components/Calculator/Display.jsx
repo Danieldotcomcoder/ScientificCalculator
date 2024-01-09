@@ -1,4 +1,3 @@
-import './calculator.css';
 
 const Display = () => {
   return (
