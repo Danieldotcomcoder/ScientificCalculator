@@ -14,10 +14,10 @@ const NormalKeypad = observer(() => {
       <button className="dark" onClick={() => handleClick(7)}>7</button>
     </div>
     <div>
-      <button className="dark">8</button>
+      <button className="dark" onClick={() => handleClick(8)}>8</button>
     </div>
     <div>
-      <button className="dark">9</button>
+      <button className="dark" onClick={() => handleClick(9)}>9</button>
     </div>
     <div>
       <button className="clear">C</button>
@@ -27,13 +27,13 @@ const NormalKeypad = observer(() => {
       <span className="color abs">SAC</span>
     </div>
     <div>
-      <button className="dark">4</button>
+      <button className="dark" onClick={() => handleClick(4)}>4</button>
     </div>
     <div>
-      <button className="dark">5</button>
+      <button className="dark" onClick={() => handleClick(5)}>5</button>
     </div>
     <div>
-      <button className="dark">6</button>
+      <button className="dark" onClick={() => handleClick(6)}>6</button>
     </div>
     <div>
       <button className="light big">×</button>
@@ -42,13 +42,13 @@ const NormalKeypad = observer(() => {
       <button className="light big fix">÷</button>
     </div>
     <div>
-      <button className="dark">1</button>
+      <button className="dark" onClick={() => handleClick(1)}>1</button>
     </div>
     <div>
-      <button className="dark">2</button>
+      <button className="dark" onClick={() => handleClick(2)}>2</button>
     </div>
     <div>
-      <button className="dark">3</button>
+      <button className="dark" onClick={() => handleClick(3)}>3</button>
     </div>
     <div>
       <button className="light big">+</button>

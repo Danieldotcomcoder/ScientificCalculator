@@ -10,8 +10,8 @@ class calculatorStore {
   }
 
   setCurrentValue(value) {
-    this.currentValue = value;
-    console.log(value);
+    this.currentValue += value;
+    console.log(this.currentValue);
   }
 
   setStoredValue(value) {
