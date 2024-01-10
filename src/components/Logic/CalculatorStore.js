@@ -1,31 +1,37 @@
-import { makeAutoObservable } from "mobx"
+import { makeAutoObservable } from 'mobx';
 
-class CalculatorStore {
-  currentValue = ""
-  storedValue = ""
-  operator = ""
+class calculatorStore {
+  currentValue = '';
+  storedValue = '';
+  operator = '';
 
   constructor() {
-    makeAutoObservable(this)
+    makeAutoObservable(this);
   }
 
   setCurrentValue(value) {
-    this.currentValue = value
+    this.currentValue = value;
+    console.log(value);
   }
 
   setStoredValue(value) {
-    this.storedValue = value
+    this.storedValue = value;
+    console.log(value);
+  }
+
+  getCurrentValue() {
+    return this.currentValue;
   }
 
   setOperator(operator) {
-    this.operator = operator
+    this.operator = operator;
   }
 
   clear() {
-    this.currentValue = ""
-    this.storedValue = ""
-    this.operator = ""
+    this.currentValue = '';
+    this.storedValue = '';
+    this.operator = '';
   }
 }
 
-export default CalculatorStore
+export default new calculatorStore();

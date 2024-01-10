@@ -1,9 +1,17 @@
+import { observer } from "mobx-react"
+import calculatorStore from '../Logic/calculatorStore.js'
 
-const NormalKeypad = () => {
+
+const NormalKeypad = observer(() => {
+
+  const handleClick = (number) => {
+    calculatorStore.setCurrentValue(number)
+  }
+
   return (
     <div className="normal-keypad keypad">
     <div>
-      <button className="dark">7</button>
+      <button className="dark" onClick={() => handleClick(7)}>7</button>
     </div>
     <div>
       <button className="dark">8</button>
@@ -70,6 +78,6 @@ const NormalKeypad = () => {
     </div>
   </div>
   )
-}
+})
 
 export default NormalKeypad
