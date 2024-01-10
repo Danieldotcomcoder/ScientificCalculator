@@ -169,14 +169,14 @@ body {
   }
 
   & .keypad {
-    background: #00d4b1;
+    background: #080808 ;
     background-image:
       linear-gradient(
         to right,
         #9e9492 0 1%,
         transparent 2.5% 91%,
-        #3be2c6 96% 98.5%,
-        #aaa 99.5% 100%
+        #080808 96% 98.5%,
+        #9e9492 99.5% 100%
       );
     padding: 10px 40px 10px 20px;
   }
@@ -301,7 +301,7 @@ body {
     & button {
       width: 38px;
       height: 30px;
-      color: #fff;
+      color: #0a0a0a;
       border-bottom: 2px solid #4f4239;
       border-top: 1px solid #d0cec8;
       border-left: 1px solid #4f4239;
@@ -332,7 +332,7 @@ body {
       }
 
       &.dark {
-        background: #111;
+        background: #ffffff;
         border-bottom-color: #000;
         border-left-color: #000;
         border-top-color: #444;
@@ -361,7 +361,7 @@ body {
       }
 
       &.light {
-        background: #62676a;
+        background: #c7c2c2;
         border-top-color: #7c8085;
         border-right-color: #7c8085;
         border-bottom-color: #424246;
