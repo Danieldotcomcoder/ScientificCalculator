@@ -341,7 +341,7 @@ body {
         border-right-color: #999;
 
         &:active {
-          background: #000;
+          background: #0000;
           border-top-color: #222;
           border-right-color: #000;
           border-bottom: 0;
@@ -473,7 +473,7 @@ body {
 
   & .casio-bottom {
     height: 35px;
-    background: #000;
+    background: #464646;
     border-radius: 0 0 10px 10px / 0 0 30px 30px;
   }
 }
