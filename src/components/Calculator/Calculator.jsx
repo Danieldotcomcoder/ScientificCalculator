@@ -8,17 +8,15 @@ const Calculator = () => {
   return (
     <div>
       <div className="casio-fx39">
-       <BrandContainer />
+        <BrandContainer />
 
-       <Display />
+        <Display />
 
-<ScientificKeypad />
+        <ScientificKeypad />
         <NormalKeypad />
 
-      <ModeSelector />
-
- 
-    </div>
+        <ModeSelector />
+      </div>
     </div>
   );
 };
