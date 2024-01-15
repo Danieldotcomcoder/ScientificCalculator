@@ -8,6 +8,10 @@ const NormalKeypad = observer(() => {
     calculatorStore.setCurrentValue(number)
   }
 
+  const clearAll = () => {
+    calculatorStore.clear()
+  }
+
   return (
     <div className="normal-keypad keypad">
     <div>
@@ -23,7 +27,7 @@ const NormalKeypad = observer(() => {
       <button className="clear">C</button>
     </div>
     <div>
-      <button className="clear">AC</button>
+      <button className="clear" onClick={() => clearAll()}>AC</button>
       <span className="color abs">SAC</span>
     </div>
     <div>
