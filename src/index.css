@@ -108,7 +108,7 @@ body {
   }
 
   & .screen {
-    height: 140px;
+    height: 240px;
     background: #000;
     box-shadow: 0 0 4px #000;
     display: flex;
